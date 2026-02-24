@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Scarf body - draped shape -->
+  <path d="M45 50 Q42 80 50 110 Q55 130 48 155 Q45 170 55 180 L70 180 Q60 170 63 155 Q68 130 65 110 Q58 80 60 50Z" fill="#FFB84D"/>
+  <path d="M60 50 Q58 80 65 110 Q68 130 63 155 Q60 170 70 180 L155 180 Q145 170 148 155 Q155 130 150 110 Q142 80 145 50Z" fill="#FF6B6B"/>
+
+  <!-- Right side hanging -->
+  <path d="M145 50 Q142 80 150 110 Q155 130 148 155 Q145 170 155 180 L170 180 Q160 170 163 155 Q170 130 165 110 Q158 80 160 50Z" fill="#FFB84D"/>
+
+  <!-- Knot/overlap area -->
+  <ellipse cx="100" cy="55" rx="55" ry="15" fill="#FF6B6B"/>
+  <ellipse cx="100" cy="52" rx="50" ry="12" fill="#FF8E8E"/>
+
+  <!-- Crochet texture - horizontal ribbing lines -->
+  <g stroke="#E05555" stroke-width="1" opacity="0.3">
+    <path d="M62 70 Q100 65 140 70"/>
+    <path d="M63 85 Q100 80 138 85"/>
+    <path d="M64 100 Q100 95 137 100"/>
+    <path d="M65 115 Q100 110 136 115"/>
+    <path d="M63 130 Q100 125 138 130"/>
+    <path d="M60 145 Q100 140 140 145"/>
+    <path d="M58 160 Q100 155 142 160"/>
+  </g>
+
+  <!-- Left side ribbing -->
+  <g stroke="#E09030" stroke-width="1" opacity="0.3">
+    <path d="M47 70 Q52 68 58 70"/>
+    <path d="M48 85 Q53 83 58 85"/>
+    <path d="M50 100 Q53 98 58 100"/>
+    <path d="M52 115 Q54 113 58 115"/>
+    <path d="M50 130 Q53 128 58 130"/>
+    <path d="M48 145 Q52 143 58 145"/>
+    <path d="M46 160 Q51 158 58 160"/>
+  </g>
+
+  <!-- Right side ribbing -->
+  <g stroke="#E09030" stroke-width="1" opacity="0.3">
+    <path d="M147 70 Q155 68 162 70"/>
+    <path d="M148 85 Q155 83 162 85"/>
+    <path d="M150 100 Q155 98 162 100"/>
+    <path d="M152 115 Q155 113 162 115"/>
+    <path d="M150 130 Q155 128 162 130"/>
+    <path d="M148 145 Q155 143 162 145"/>
+    <path d="M146 160 Q155 158 162 160"/>
+  </g>
+
+  <!-- Fringe at bottom -->
+  <g stroke-width="3" stroke-linecap="round">
+    <line x1="58" y1="180" x2="56" y2="195" stroke="#FF6B6B"/>
+    <line x1="68" y1="180" x2="66" y2="195" stroke="#FF6B6B"/>
+    <line x1="78" y1="180" x2="77" y2="195" stroke="#FF6B6B"/>
+    <line x1="88" y1="180" x2="87" y2="195" stroke="#FF6B6B"/>
+    <line x1="98" y1="180" x2="98" y2="195" stroke="#FF6B6B"/>
+    <line x1="108" y1="180" x2="108" y2="195" stroke="#FF6B6B"/>
+    <line x1="118" y1="180" x2="119" y2="195" stroke="#FF6B6B"/>
+    <line x1="128" y1="180" x2="130" y2="195" stroke="#FF6B6B"/>
+    <line x1="138" y1="180" x2="140" y2="195" stroke="#FF6B6B"/>
+    <line x1="148" y1="180" x2="150" y2="195" stroke="#FFB84D"/>
+    <line x1="158" y1="180" x2="160" y2="195" stroke="#FFB84D"/>
+    <line x1="168" y1="180" x2="170" y2="195" stroke="#FFB84D"/>
+  </g>
+
+  <!-- Shine -->
+  <ellipse cx="90" cy="48" rx="20" ry="6" fill="white" opacity="0.15"/>
+
+  <!-- Small decorative stitch marks -->
+  <g fill="#FF6B6B" opacity="0.15">
+    <circle cx="80" cy="90" r="2"/>
+    <circle cx="100" cy="120" r="2"/>
+    <circle cx="120" cy="100" r="2"/>
+  </g>
+</svg>

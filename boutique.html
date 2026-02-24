@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boutique — Neurofil</title>
+  <meta name="description" content="D&eacute;couvrez nos cr&eacute;ations au crochet : amigurumis, accessoires sensoriels, d&eacute;co et plus encore.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="45" fill="#7C5CFC" opacity="0.15"/>
+          <circle cx="50" cy="50" r="30" fill="#7C5CFC" opacity="0.25"/>
+          <path d="M50 20 C30 20, 15 35, 15 50 C15 65, 30 80, 50 80 C70 80, 85 65, 85 50" stroke="#7C5CFC" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <path d="M85 50 C85 35, 70 20, 50 20" stroke="#FF6B6B" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="6 4"/>
+          <circle cx="50" cy="50" r="8" fill="#7C5CFC"/>
+          <circle cx="50" cy="50" r="3" fill="white"/>
+        </svg>
+        Neurofil
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="neurodivergence.html">Neurodivergence</a>
+        <a href="boutique.html">Boutique</a>
+        <a href="a-propos.html">&Agrave; propos</a>
+        <a href="boutique.html" class="nav-cart" aria-label="Panier">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+          </svg>
+          <span class="cart-badge">0</span>
+        </a>
+      </div>
+      <div class="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <div class="nav-overlay"></div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="blob blob-1"></div>
+      <div class="fade-in">
+        <h1>&#x1F6D2; La Boutique</h1>
+        <p>Des cr&eacute;ations uniques, faites main avec amour et attention. Chaque pi&egrave;ce est pens&eacute;e pour apporter douceur et r&eacute;confort sensoriel.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Boutique -->
+  <section>
+    <div class="container">
+      <!-- Filtres -->
+      <div class="filters fade-in">
+        <button class="filter-btn active" data-filter="all">Tout</button>
+        <button class="filter-btn" data-filter="amigurumis">&#x1F9F8; Amigurumis</button>
+        <button class="filter-btn" data-filter="accessoires">&#x1F9E3; Accessoires</button>
+        <button class="filter-btn" data-filter="deco">&#x2728; D&eacute;co</button>
+        <button class="filter-btn" data-filter="sensoriels">&#x1F31F; Sensoriels</button>
+      </div>
+
+      <!-- Grille Produits -->
+      <div class="products-grid">
+
+        <!-- Produit 1 -->
+        <div class="product-card fade-in" data-category="amigurumis">
+          <div class="product-image" style="background: linear-gradient(135deg, #f0e6ff, #e6f0ff);">
+            <span class="product-tag">Nouveau</span>
+            <img src="assets/images/poulpe.svg" alt="Poulpe Sensoriel en crochet">
+          </div>
+          <div class="product-info">
+            <h3>Poulpe Sensoriel</h3>
+            <p class="product-category">Amigurumis</p>
+            <div class="product-bottom">
+              <span class="product-price">24,90 &euro;</span>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produit 2 -->
+        <div class="product-card fade-in" data-category="sensoriels">
+          <div class="product-image" style="background: linear-gradient(135deg, #fff0f0, #ffe6f0);">
+            <img src="assets/images/fleur.svg" alt="Fleur Fidget en crochet">
+          </div>
+          <div class="product-info">
+            <h3>Fleur Fidget</h3>
+            <p class="product-category">Sensoriels</p>
+            <div class="product-bottom">
+              <span class="product-price">14,90 &euro;</span>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produit 3 -->
+        <div class="product-card fade-in" data-category="amigurumis">
+          <div class="product-image" style="background: linear-gradient(135deg, #e6fff5, #e6f0ff);">
+            <img src="assets/images/tortue.svg" alt="Tortue Lest&eacute;e en crochet">
+          </div>
+          <div class="product-info">
+            <h3>Tortue Lest&eacute;e</h3>
+            <p class="product-category">Amigurumis</p>
+            <div class="product-bottom">
+              <span class="product-price">32,90 &euro;</span>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produit 4 -->
+        <div class="product-card fade-in" data-category="deco">
+          <div class="product-image" style="background: linear-gradient(135deg, #fff8e6, #ffe6cc);">
+            <img src="assets/images/guirlande.svg" alt="Guirlande Arc-en-ciel en crochet">
+          </div>
+          <div class="product-info">
+            <h3>Guirlande Arc-en-ciel</h3>
+            <p class="product-category">D&eacute;co</p>
+            <div class="product-bottom">
+              <span class="product-price">19,90 &euro;</span>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produit 5 -->
+        <div class="product-card fade-in" data-category="amigurumis">
+          <div class="product-image" style="background: linear-gradient(135deg, #e6f0ff, #f0e6ff);">
+            <img src="assets/images/papillon.svg" alt="Papillon Doudou en crochet">
+          </div>
+          <div class="product-info">
+            <h3>Papillon Doudou</h3>
+            <p class="product-category">Amigurumis</p>
+            <div class="product-bottom">
+              <span class="product-price">22,90 &euro;</span>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produit 6 -->
+        <div class="product-card fade-in" data-category="accessoires">
+          <div class="product-image" style="background: linear-gradient(135deg, #fff0e6, #ffe6cc);">
+            <img src="assets/images/echarpe.svg" alt="&Eacute;charpe Cocon en crochet">
+          </div>
+          <div class="product-info">
+            <h3>&Eacute;charpe Cocon</h3>
+            <p class="product-category">Accessoires</p>
+            <div class="product-bottom">
+              <span class="product-price">38,90 &euro;</span>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produit 7 -->
+        <div class="product-card fade-in" data-category="sensoriels">
+          <div class="product-image" style="background: linear-gradient(135deg, #e6fff0, #e6ffff);">
+            <span class="product-tag">Populaire</span>
+            <img src="assets/images/cube.svg" alt="Cube Sensoriel en crochet">
+          </div>
+          <div class="product-info">
+            <h3>Cube Sensoriel</h3>
+            <p class="product-category">Sensoriels</p>
+            <div class="product-bottom">
+              <span class="product-price">16,90 &euro;</span>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produit 8 -->
+        <div class="product-card fade-in" data-category="deco">
+          <div class="product-image" style="background: linear-gradient(135deg, #ffe6f0, #f0e6ff);">
+            <img src="assets/images/mobile.svg" alt="Mobile Nuages en crochet">
+          </div>
+          <div class="product-info">
+            <h3>Mobile Nuages</h3>
+            <p class="product-category">D&eacute;co</p>
+            <div class="product-bottom">
+              <span class="product-price">27,90 &euro;</span>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produit 9 -->
+        <div class="product-card fade-in" data-category="amigurumis">
+          <div class="product-image" style="background: linear-gradient(135deg, #e6ffe6, #e6fff5);">
+            <img src="assets/images/chat.svg" alt="Chat R&eacute;confort en crochet">
+          </div>
+          <div class="product-info">
+            <h3>Chat R&eacute;confort</h3>
+            <p class="product-category">Amigurumis</p>
+            <div class="product-bottom">
+              <span class="product-price">28,90 &euro;</span>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produit 10 -->
+        <div class="product-card fade-in" data-category="accessoires">
+          <div class="product-image" style="background: linear-gradient(135deg, #f0f0ff, #e6e6ff);">
+            <img src="assets/images/bonnet.svg" alt="Bonnet Douceur en crochet">
+          </div>
+          <div class="product-info">
+            <h3>Bonnet Douceur</h3>
+            <p class="product-category">Accessoires</p>
+            <div class="product-bottom">
+              <span class="product-price">26,90 &euro;</span>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produit 11 -->
+        <div class="product-card fade-in" data-category="sensoriels">
+          <div class="product-image" style="background: linear-gradient(135deg, #fff5e6, #ffece6);">
+            <img src="assets/images/worry-worm.svg" alt="Worry Worm en crochet">
+          </div>
+          <div class="product-info">
+            <h3>Worry Worm</h3>
+            <p class="product-category">Sensoriels</p>
+            <div class="product-bottom">
+              <span class="product-price">9,90 &euro;</span>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produit 12 -->
+        <div class="product-card fade-in" data-category="deco">
+          <div class="product-image" style="background: linear-gradient(135deg, #e6f5ff, #e6ecff);">
+            <img src="assets/images/coussin-etoile.svg" alt="Coussin &Eacute;toile en crochet">
+          </div>
+          <div class="product-info">
+            <h3>Coussin &Eacute;toile</h3>
+            <p class="product-category">D&eacute;co</p>
+            <div class="product-bottom">
+              <span class="product-price">34,90 &euro;</span>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>&#x1F9F6; Neurofil</h3>
+          <p>Cr&eacute;ations sensorielles au crochet, pens&eacute;es par une personne neurodivergente pour les esprits atypiques.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="TikTok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.88-2.88 2.89 2.89 0 0 1 2.88-2.88c.28 0 .56.04.82.12v-3.5a6.37 6.37 0 0 0-.82-.05A6.34 6.34 0 0 0 3.15 15.4a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.87a8.16 8.16 0 0 0 4.76 1.52v-3.4a4.85 4.85 0 0 1-1-.3z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Etsy">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+                <path d="M8 3c-1.5 0-3 .5-3 2v14c0 1.5 1.5 2 3 2h4c2 0 4-1 5-2l-1.5-2c-.8.8-2 1.5-3.5 1.5H9V13h4.5l.5-2.5H9V5h3c1.5 0 2.7.7 3.5 1.5L17 4.5C16 3.5 14 3 12 3H8z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="index.html">Accueil</a>
+          <a href="neurodivergence.html">Neurodivergence</a>
+          <a href="boutique.html">Boutique</a>
+          <a href="a-propos.html">&Agrave; propos</a>
+        </div>
+        <div class="footer-links">
+          <h4>Informations</h4>
+          <a href="#">Livraison</a>
+          <a href="#">Mentions l&eacute;gales</a>
+          <a href="#">CGV</a>
+          <a href="a-propos.html#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Neurofil. Tous droits r&eacute;serv&eacute;s. Fait avec &#x2764;&#xFE0F; et beaucoup de fil.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Body -->
+  <ellipse cx="100" cy="80" rx="55" ry="50" fill="#7C5CFC"/>
+  <ellipse cx="100" cy="80" rx="55" ry="50" fill="url(#poulpeShine)"/>
+
+  <!-- Crochet texture lines on body -->
+  <path d="M55 65 Q100 50 145 65" stroke="#6a48e6" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <path d="M50 80 Q100 65 150 80" stroke="#6a48e6" stroke-width="1.5" fill="none" opacity="0.25"/>
+  <path d="M55 95 Q100 80 145 95" stroke="#6a48e6" stroke-width="1.5" fill="none" opacity="0.2"/>
+
+  <!-- Eyes -->
+  <ellipse cx="80" cy="72" rx="12" ry="13" fill="white"/>
+  <ellipse cx="120" cy="72" rx="12" ry="13" fill="white"/>
+  <circle cx="83" cy="74" r="6" fill="#2D2D2D"/>
+  <circle cx="123" cy="74" r="6" fill="#2D2D2D"/>
+  <circle cx="85" cy="71" r="2.5" fill="white"/>
+  <circle cx="125" cy="71" r="2.5" fill="white"/>
+
+  <!-- Blush -->
+  <ellipse cx="68" cy="88" rx="8" ry="5" fill="#FF6B6B" opacity="0.3"/>
+  <ellipse cx="132" cy="88" rx="8" ry="5" fill="#FF6B6B" opacity="0.3"/>
+
+  <!-- Smile -->
+  <path d="M90 92 Q100 100 110 92" stroke="#2D2D2D" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Tentacles - curly like crochet -->
+  <path d="M55 115 Q40 130 50 145 Q60 155 48 170" stroke="#7C5CFC" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M72 120 Q60 140 70 155 Q78 165 65 180" stroke="#9d85fd" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M92 125 Q85 145 92 160 Q98 172 88 185" stroke="#FF6B6B" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M108 125 Q115 145 108 160 Q102 172 112 185" stroke="#FFB84D" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M128 120 Q140 140 130 155 Q122 165 135 180" stroke="#4ECDC4" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M145 115 Q160 130 150 145 Q140 155 152 170" stroke="#7C5CFC" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+  <!-- Small texture dots on tentacles -->
+  <circle cx="48" cy="140" r="2" fill="white" opacity="0.3"/>
+  <circle cx="68" cy="150" r="2" fill="white" opacity="0.3"/>
+  <circle cx="92" cy="155" r="2" fill="white" opacity="0.3"/>
+  <circle cx="108" cy="155" r="2" fill="white" opacity="0.3"/>
+  <circle cx="132" cy="150" r="2" fill="white" opacity="0.3"/>
+  <circle cx="150" cy="140" r="2" fill="white" opacity="0.3"/>
+
+  <defs>
+    <radialGradient id="poulpeShine" cx="35%" cy="30%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

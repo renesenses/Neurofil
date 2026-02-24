@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Back legs -->
+  <ellipse cx="55" cy="145" rx="18" ry="12" fill="#4ECDC4" transform="rotate(-15 55 145)"/>
+  <ellipse cx="145" cy="145" rx="18" ry="12" fill="#4ECDC4" transform="rotate(15 145 145)"/>
+  <!-- Front legs -->
+  <ellipse cx="60" cy="108" rx="18" ry="11" fill="#4ECDC4" transform="rotate(-25 60 108)"/>
+  <ellipse cx="140" cy="108" rx="18" ry="11" fill="#4ECDC4" transform="rotate(25 140 108)"/>
+
+  <!-- Tail -->
+  <path d="M100 158 Q100 168 105 172" stroke="#4ECDC4" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Shell base -->
+  <ellipse cx="100" cy="110" rx="58" ry="48" fill="#7C5CFC"/>
+
+  <!-- Shell top (dome) -->
+  <ellipse cx="100" cy="100" rx="55" ry="50" fill="#7C5CFC"/>
+  <ellipse cx="100" cy="100" rx="55" ry="50" fill="url(#shellGrad)"/>
+
+  <!-- Shell pattern - hexagonal crochet pattern -->
+  <circle cx="100" cy="90" r="18" stroke="#9d85fd" stroke-width="2.5" fill="none"/>
+  <circle cx="100" cy="90" r="8" fill="#9d85fd" opacity="0.3"/>
+
+  <!-- Surrounding hexagon-ish shapes -->
+  <path d="M82 74 Q74 65 68 72 Q65 82 74 88" stroke="#9d85fd" stroke-width="2" fill="#6a48e6" opacity="0.2"/>
+  <path d="M118 74 Q126 65 132 72 Q135 82 126 88" stroke="#9d85fd" stroke-width="2" fill="#6a48e6" opacity="0.2"/>
+  <path d="M82 106 Q74 115 68 108 Q65 98 74 92" stroke="#9d85fd" stroke-width="2" fill="#6a48e6" opacity="0.2"/>
+  <path d="M118 106 Q126 115 132 108 Q135 98 126 92" stroke="#9d85fd" stroke-width="2" fill="#6a48e6" opacity="0.2"/>
+  <path d="M100 68 Q92 58 100 52 Q108 58 100 68" stroke="#9d85fd" stroke-width="2" fill="#6a48e6" opacity="0.2"/>
+  <path d="M100 112 Q92 122 100 128 Q108 122 100 112" stroke="#9d85fd" stroke-width="2" fill="#6a48e6" opacity="0.2"/>
+
+  <!-- Shell edge stitch detail -->
+  <path d="M48 110 Q60 135 100 140 Q140 135 152 110" stroke="#6a48e6" stroke-width="2" fill="none" opacity="0.3" stroke-dasharray="4 3"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="55" rx="20" ry="18" fill="#4ECDC4"/>
+  <ellipse cx="100" cy="55" rx="20" ry="18" fill="url(#headGrad)"/>
+
+  <!-- Eyes -->
+  <circle cx="92" cy="52" r="5" fill="white"/>
+  <circle cx="108" cy="52" r="5" fill="white"/>
+  <circle cx="93" cy="53" r="2.5" fill="#2D2D2D"/>
+  <circle cx="109" cy="53" r="2.5" fill="#2D2D2D"/>
+  <circle cx="94" cy="52" r="1" fill="white"/>
+  <circle cx="110" cy="52" r="1" fill="white"/>
+
+  <!-- Blush -->
+  <ellipse cx="85" cy="58" rx="5" ry="3" fill="#FF6B6B" opacity="0.25"/>
+  <ellipse cx="115" cy="58" rx="5" ry="3" fill="#FF6B6B" opacity="0.25"/>
+
+  <!-- Smile -->
+  <path d="M95 61 Q100 65 105 61" stroke="#2D2D2D" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <defs>
+    <radialGradient id="shellGrad" cx="40%" cy="30%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="headGrad" cx="40%" cy="30%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

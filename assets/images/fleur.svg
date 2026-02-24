@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Stem -->
+  <path d="M100 130 Q95 155 100 185" stroke="#4ECDC4" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Leaves -->
+  <path d="M98 155 Q80 145 75 155 Q78 165 98 160" fill="#4ECDC4"/>
+  <path d="M102 165 Q120 155 125 165 Q122 175 102 170" fill="#4ECDC4"/>
+
+  <!-- Petals - back layer -->
+  <ellipse cx="72" cy="72" rx="22" ry="30" fill="#FF6B6B" opacity="0.8" transform="rotate(-30 72 72)"/>
+  <ellipse cx="128" cy="72" rx="22" ry="30" fill="#FF6B6B" opacity="0.8" transform="rotate(30 128 72)"/>
+  <ellipse cx="65" cy="100" rx="22" ry="30" fill="#FF8E8E" opacity="0.7" transform="rotate(-70 65 100)"/>
+  <ellipse cx="135" cy="100" rx="22" ry="30" fill="#FF8E8E" opacity="0.7" transform="rotate(70 135 100)"/>
+
+  <!-- Petals - front layer -->
+  <ellipse cx="80" cy="60" rx="20" ry="28" fill="#FF6B6B" transform="rotate(-15 80 60)"/>
+  <ellipse cx="120" cy="60" rx="20" ry="28" fill="#FF6B6B" transform="rotate(15 120 60)"/>
+  <ellipse cx="100" cy="50" rx="20" ry="28" fill="#FF8E8E"/>
+  <ellipse cx="70" cy="90" rx="20" ry="28" fill="#FF6B6B" transform="rotate(-55 70 90)"/>
+  <ellipse cx="130" cy="90" rx="20" ry="28" fill="#FF6B6B" transform="rotate(55 130 90)"/>
+
+  <!-- Petal texture (crochet feel) -->
+  <path d="M85 42 Q100 38 115 42" stroke="white" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M78 52 Q100 46 122 52" stroke="white" stroke-width="1" fill="none" opacity="0.25"/>
+
+  <!-- Center -->
+  <circle cx="100" cy="82" r="22" fill="#FFB84D"/>
+  <circle cx="100" cy="82" r="16" fill="#FFCC70"/>
+
+  <!-- Center texture -->
+  <circle cx="93" cy="76" r="3" fill="#FFB84D" opacity="0.6"/>
+  <circle cx="107" cy="76" r="3" fill="#FFB84D" opacity="0.6"/>
+  <circle cx="100" cy="86" r="3" fill="#FFB84D" opacity="0.6"/>
+  <circle cx="93" cy="86" r="2.5" fill="#FFB84D" opacity="0.5"/>
+  <circle cx="107" cy="86" r="2.5" fill="#FFB84D" opacity="0.5"/>
+
+  <!-- Face -->
+  <circle cx="93" cy="78" r="2.5" fill="#2D2D2D"/>
+  <circle cx="107" cy="78" r="2.5" fill="#2D2D2D"/>
+  <circle cx="94" cy="77" r="1" fill="white"/>
+  <circle cx="108" cy="77" r="1" fill="white"/>
+  <path d="M96 86 Q100 90 104 86" stroke="#2D2D2D" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Blush -->
+  <ellipse cx="87" cy="84" rx="5" ry="3" fill="#FF6B6B" opacity="0.25"/>
+  <ellipse cx="113" cy="84" rx="5" ry="3" fill="#FF6B6B" opacity="0.25"/>
+</svg>

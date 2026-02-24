@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- 3D cube faces -->
+  <!-- Top face -->
+  <path d="M100 35 L170 70 L100 105 L30 70Z" fill="#7C5CFC"/>
+  <path d="M100 35 L170 70 L100 105 L30 70Z" fill="white" opacity="0.15"/>
+
+  <!-- Left face -->
+  <path d="M30 70 L100 105 L100 170 L30 135Z" fill="#6a48e6"/>
+
+  <!-- Right face -->
+  <path d="M170 70 L100 105 L100 170 L170 135Z" fill="#5838d6"/>
+
+  <!-- Top face texture - bumpy crochet pattern -->
+  <circle cx="70" cy="68" r="6" fill="white" opacity="0.1"/>
+  <circle cx="90" cy="60" r="6" fill="white" opacity="0.1"/>
+  <circle cx="110" cy="60" r="6" fill="white" opacity="0.1"/>
+  <circle cx="130" cy="68" r="6" fill="white" opacity="0.1"/>
+  <circle cx="80" cy="76" r="6" fill="white" opacity="0.1"/>
+  <circle cx="100" cy="72" r="6" fill="white" opacity="0.1"/>
+  <circle cx="120" cy="76" r="6" fill="white" opacity="0.1"/>
+  <circle cx="100" cy="84" r="6" fill="white" opacity="0.08"/>
+  <circle cx="90" cy="90" r="6" fill="white" opacity="0.08"/>
+  <circle cx="110" cy="90" r="6" fill="white" opacity="0.08"/>
+
+  <!-- Left face texture - ridges -->
+  <line x1="35" y1="82" x2="95" y2="115" stroke="#7C5CFC" stroke-width="1.5" opacity="0.3"/>
+  <line x1="35" y1="92" x2="95" y2="125" stroke="#7C5CFC" stroke-width="1.5" opacity="0.3"/>
+  <line x1="35" y1="102" x2="95" y2="135" stroke="#7C5CFC" stroke-width="1.5" opacity="0.3"/>
+  <line x1="35" y1="112" x2="95" y2="145" stroke="#7C5CFC" stroke-width="1.5" opacity="0.3"/>
+  <line x1="35" y1="122" x2="95" y2="155" stroke="#7C5CFC" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Right face texture - different pattern (bobbles) -->
+  <circle cx="120" cy="118" r="5" fill="#7C5CFC" opacity="0.2"/>
+  <circle cx="140" cy="110" r="5" fill="#7C5CFC" opacity="0.2"/>
+  <circle cx="155" cy="103" r="5" fill="#7C5CFC" opacity="0.2"/>
+  <circle cx="120" cy="132" r="5" fill="#7C5CFC" opacity="0.2"/>
+  <circle cx="140" cy="124" r="5" fill="#7C5CFC" opacity="0.2"/>
+  <circle cx="155" cy="117" r="5" fill="#7C5CFC" opacity="0.2"/>
+  <circle cx="120" cy="146" r="5" fill="#7C5CFC" opacity="0.2"/>
+  <circle cx="140" cy="138" r="5" fill="#7C5CFC" opacity="0.2"/>
+
+  <!-- Edges highlight -->
+  <path d="M100 35 L170 70 L100 105 L30 70Z" stroke="#9d85fd" stroke-width="2" fill="none"/>
+  <line x1="100" y1="105" x2="100" y2="170" stroke="#7C5CFC" stroke-width="2"/>
+  <line x1="30" y1="70" x2="30" y2="135" stroke="#7C5CFC" stroke-width="2"/>
+  <line x1="170" y1="70" x2="170" y2="135" stroke="#5838d6" stroke-width="2"/>
+  <path d="M30 135 L100 170 L170 135" stroke="#5838d6" stroke-width="2" fill="none"/>
+
+  <!-- Colored patches on faces for sensory variety -->
+  <!-- Left face patch -->
+  <path d="M45 90 L70 102 L70 120 L45 108Z" fill="#FF6B6B" opacity="0.3"/>
+  <!-- Right face patch -->
+  <path d="M130 120 L155 108 L155 128 L130 140Z" fill="#4ECDC4" opacity="0.3"/>
+  <!-- Top face patch -->
+  <path d="M95 55 L115 55 L120 65 L100 70 L80 65Z" fill="#FFB84D" opacity="0.25"/>
+
+  <!-- Ribbon/tag -->
+  <path d="M164 72 Q175 68 180 75 Q182 82 175 80 L170 78" stroke="#FF6B6B" stroke-width="2" fill="#FF6B6B" opacity="0.7"/>
+  <path d="M175 80 L178 90 M175 80 L172 90" stroke="#FF6B6B" stroke-width="1.5" fill="none"/>
+</svg>
