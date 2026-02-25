@@ -136,17 +136,13 @@ ul { list-style: none; }
 }
 
 .nav-logo {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: var(--primary);
   display: flex;
   align-items: center;
-  gap: 0.5rem;
 }
 
-.nav-logo span {
-  font-size: 1.4rem;
+.nav-logo-img {
+  height: 80px;
+  width: auto;
 }
 
 .nav-links {
